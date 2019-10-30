@@ -1,0 +1,115 @@
+div {
+	margin:15px;
+	width: auto;                        
+	padding: 15px;                           
+	border-radius: 2px;                       
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+
+body {
+	background: #fcf9ed;
+	color: #665c84;
+	text-align: center;
+	font-family: 'Lora', serif;
+}
+
+h1 {
+	font-size: 42px;
+	font-family: 'Fira Code', monospace;
+	color: #ff7657;
+	letter-spacing: 800;
+}
+
+h1, h2 {
+	color: 665c84;
+}
+
+h2 {
+	font-size: 28px
+	font-family: 'Roboto', sans-serif;
+	color: #ffba5a;
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+
+p {
+	font-size: 22px
+}
+
+a {
+	text-decoration: none;
+	color: #665c84;
+	font-weight: 600;
+	font-size: 16px
+}
+
+a:hover {
+	color: #ff7657;
+}
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+.card-white {
+	 background-color: white;
+	 border-radius: 4px;
+	 box-shadow: rgba(0,0,0,0.1)
+	 padding: 40px;
+	 border-radius: 4px
+	 margin: 20pxx 20px;
+	 text-align: center;
+}
+.btn-purple {
+  	background-color: #ffba5a;
+  	color: white;
+  	padding: 15px 20px;
+  	border-radius: 4px;
+}
+.btn-purple:hover {
+	background-color: #ff7657;
+	color: white;
+}
+
+.img-circle {
+  border-radius: 50%;
+  size: 20px;
+}
+
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 	
+}
+.list-inline > li {
+  display: inline; 
+  padding: 10px; 
+}
+.list-inline i {
+	font-size: 50px;
+}
+
+#introduction a {
+	margin: 40px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
